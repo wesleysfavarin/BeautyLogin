@@ -15,6 +15,8 @@
 		04E3B03F224F9236006D27A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E3B03D224F9236006D27A6 /* LaunchScreen.storyboard */; };
 		04E3B04A224F9236006D27A6 /* loginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3B049224F9236006D27A6 /* loginTests.swift */; };
 		04E3B055224F9236006D27A6 /* loginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3B054224F9236006D27A6 /* loginUITests.swift */; };
+		04E3B063224FB204006D27A6 /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3B062224FB204006D27A6 /* UIView+Extention.swift */; };
+		04E3B065224FC289006D27A6 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3B064224FC289006D27A6 /* LaunchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		04E3B050224F9236006D27A6 /* loginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E3B054224F9236006D27A6 /* loginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginUITests.swift; sourceTree = "<group>"; };
 		04E3B056224F9236006D27A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E3B062224FB204006D27A6 /* UIView+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
+		04E3B064224FC289006D27A6 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,11 @@
 			children = (
 				04E3B031224F9234006D27A6 /* AppDelegate.swift */,
 				04E3B033224F9234006D27A6 /* ViewController.swift */,
+				04E3B062224FB204006D27A6 /* UIView+Extention.swift */,
 				04E3B035224F9234006D27A6 /* Main.storyboard */,
 				04E3B03B224F9236006D27A6 /* Assets.xcassets */,
 				04E3B03D224F9236006D27A6 /* LaunchScreen.storyboard */,
+				04E3B064224FC289006D27A6 /* LaunchViewController.swift */,
 				04E3B040224F9236006D27A6 /* Info.plist */,
 				04E3B038224F9234006D27A6 /* login.xcdatamodeld */,
 			);
@@ -260,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E3B03A224F9234006D27A6 /* login.xcdatamodeld in Sources */,
+				04E3B065224FC289006D27A6 /* LaunchViewController.swift in Sources */,
 				04E3B034224F9234006D27A6 /* ViewController.swift in Sources */,
 				04E3B032224F9234006D27A6 /* AppDelegate.swift in Sources */,
+				04E3B063224FB204006D27A6 /* UIView+Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
